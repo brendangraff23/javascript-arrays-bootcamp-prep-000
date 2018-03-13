@@ -11,3 +11,8 @@ function addElementToBeginningofArray(arrIn, newItem)
   var newArray = arrIn.push(newItem);
   return newArray;
 }
+
+function accessElementInArray(arr, index)
+{
+  return arr[index];
+}
